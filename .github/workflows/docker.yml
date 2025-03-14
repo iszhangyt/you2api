@@ -13,7 +13,7 @@ jobs:
       - name: Build and push
         uses: mr-smithers-excellent/docker-build-push@v6
         with:
-          image: ${{ secrets.DOCKER_USERNAME }}/betterforward
+          image: ${{ secrets.DOCKERHUB_USERNAME }}/you2apidocker
           registry: docker.io
           tags: latest
           multiPlatform: true
