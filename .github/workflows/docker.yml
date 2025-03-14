@@ -18,5 +18,5 @@ jobs:
           tags: latest
           multiPlatform: true
           platform: linux/amd64,linux/arm64,linux/arm/v7
-          username: ${{ secrets.DOCKER_USERNAME }}
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
